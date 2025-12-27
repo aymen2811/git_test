@@ -1,0 +1,42 @@
+
+
+
+
+.flex-container {
+display: flex;
+gap: 10px;
+border: 2px solid lightcyan;
+border-radius: 8px;
+justify-content: center;
+height: 100px;
+}
+.name, .email {
+font-weight: bold;
+
+}
+.bar {
+
+height: 25px;
+border: none;
+}
+
+
+
+
+.name .bar {
+  width: 111px;
+}
+.email .bar {
+  width: 162px;
+}
+
+
+
+.submit {
+color: black;
+background-color: white;
+padding: 5px 12px;
+border-radius: 6px;
+
+
+}
