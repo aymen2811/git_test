@@ -9,16 +9,20 @@ margin-bottom: 14px;
 
 .video-preview {
 
-display: inline-block;
-
-
 }
+
+.grid-test  {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+
 .text {
-  display: inline-block;
+ 
   margin-left: 8px;
 }
 .creator-profile {
-display: block;
+
 border-radius: 50%;
 align-items: flex-start;
 justify-content: flex-start;
@@ -35,7 +39,7 @@ margin-bottom: 11px;
 line-height: 20px;
 }
 .creator-profile-parent {
-display: inline-block;
+
 vertical-align: top;
 }
 
@@ -79,11 +83,14 @@ margin-bottom: 10px;
 }
 
 .video-title-2 {
-margin-top: 0px;
+margin-top: 1px;
 }
 
 
-
+.grid-test {
+display: grid;
+grid-template-columns: 40px 1fr;
+}
 
 
 
